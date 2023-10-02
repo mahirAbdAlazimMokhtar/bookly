@@ -19,7 +19,7 @@ class HomeScreenBody extends StatelessWidget {
           SizedBox(height: 50),
           Text(
             'Best Seller',
-            style: Styles.titleMedium,
+            style: Styles.textStyle18,
           ),
           SizedBox(height: 10),
           BestSellerListViewItem()
@@ -60,14 +60,14 @@ class BestSellerListViewItem extends StatelessWidget {
                 'Harry Potter and ',
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
-                style: Styles.titleMedium,
+                style: Styles.textStyle18,
               ),
               Text(
 
                 'Harry Potter and ',
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
-                style: Styles.titleMedium,
+                style: Styles.textStyle18,
               ),
             ],
           )
