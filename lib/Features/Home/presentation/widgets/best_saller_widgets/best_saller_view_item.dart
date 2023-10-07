@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 
-import '../../../../constants.dart';
-import '../../../../core/utils/assets/assets.dart';
-import '../../../../core/utils/styles.dart';
+import '../../../../../constants.dart';
+import '../../../../../core/utils/assets/assets.dart';
+import '../../../../../core/utils/styles.dart';
 import 'book_rating.dart';
 class BestSellerViewItem extends StatelessWidget {
   const BestSellerViewItem({super.key});
@@ -14,6 +14,7 @@ class BestSellerViewItem extends StatelessWidget {
       height: 130,
       child: Row(
         children: [
+ // This code snippet creates a container with a specified aspect ratio and applies a decoration with a red color and an image as a background. The container's height is set to 25% of the device's height and the width is set to 100 pixels
           AspectRatio(
             aspectRatio: 2.5 / 4,
             child: Container(

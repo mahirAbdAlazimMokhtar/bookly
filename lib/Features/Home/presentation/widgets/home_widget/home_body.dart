@@ -1,10 +1,10 @@
 import 'package:bookly/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
-import 'best_saller_list_view.dart';
-import 'best_saller_view_item.dart';
-import 'custom_app_bar.dart';
-import 'featured_list_view_items.dart';
+import '../best_saller_widgets/best_saller_list_view.dart';
+
+import '../best_saller_widgets/custom_app_bar.dart';
+import '../best_saller_widgets/featured_list_view_items.dart';
 
 class HomeScreenBody extends StatelessWidget {
   const HomeScreenBody({super.key});
