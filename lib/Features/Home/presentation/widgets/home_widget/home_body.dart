@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../best_saller_widgets/best_saller_list_view.dart';
 
 import '../best_saller_widgets/custom_app_bar.dart';
-import '../best_saller_widgets/featured_list_view_items.dart';
+import '../best_saller_widgets/custom_book_item.dart';
 
 class HomeScreenBody extends StatelessWidget {
   const HomeScreenBody({super.key});
